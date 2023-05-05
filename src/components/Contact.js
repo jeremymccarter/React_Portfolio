@@ -10,10 +10,11 @@ function Contact() {
 
   return (
     <>
+        <div className='d-flex justify-content-center'>
       <Button variant="primary" onClick={handleShow}>
         Gimme a lil click!
       </Button>
-
+      </div>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Jeremy's Business Card</Modal.Title>

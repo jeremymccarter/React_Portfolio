@@ -136,30 +136,30 @@ import {
                 <MDBCol md="6">
                   <MDBCard className="mb-4 mb-md-0">
                     <MDBCardBody>
-                      <MDBCardText className="mb-4"><span className="text-primary font-italic me-1">assigment</span> Project Status</MDBCardText>
-                      <MDBCardText className="mb-1" style={{ fontSize: '.77rem' }}>Web Design</MDBCardText>
+                      <MDBCardText className="mb-4"><span className="text-primary font-italic me-1">likes</span></MDBCardText>
+                      <MDBCardText className="mb-1" style={{ fontSize: '.77rem' }}>Coding</MDBCardText>
                       <MDBProgress className="rounded">
-                        <MDBProgressBar width={80} valuemin={0} valuemax={100} />
+                        <MDBProgressBar width={99} valuemin={0} valuemax={100} />
                       </MDBProgress>
   
-                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Website Markup</MDBCardText>
+                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Camping</MDBCardText>
                       <MDBProgress className="rounded">
-                        <MDBProgressBar width={72} valuemin={0} valuemax={100} />
+                        <MDBProgressBar width={85} valuemin={0} valuemax={100} />
                       </MDBProgress>
   
-                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>One Page</MDBCardText>
+                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Playing guitar</MDBCardText>
                       <MDBProgress className="rounded">
                         <MDBProgressBar width={89} valuemin={0} valuemax={100} />
                       </MDBProgress>
   
-                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Mobile Template</MDBCardText>
+                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Basketball</MDBCardText>
                       <MDBProgress className="rounded">
-                        <MDBProgressBar width={55} valuemin={0} valuemax={100} />
+                        <MDBProgressBar width={75} valuemin={0} valuemax={100} />
                       </MDBProgress>
   
-                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Backend API</MDBCardText>
+                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Interesting people</MDBCardText>
                       <MDBProgress className="rounded">
-                        <MDBProgressBar width={66} valuemin={0} valuemax={100} />
+                        <MDBProgressBar width={88} valuemin={0} valuemax={100} />
                       </MDBProgress>
                     </MDBCardBody>
                   </MDBCard>
@@ -168,30 +168,30 @@ import {
                 <MDBCol md="6">
                   <MDBCard className="mb-4 mb-md-0">
                     <MDBCardBody>
-                      <MDBCardText className="mb-4"><span className="text-primary font-italic me-1">assigment</span> Project Status</MDBCardText>
-                      <MDBCardText className="mb-1" style={{ fontSize: '.77rem' }}>Web Design</MDBCardText>
+                      <MDBCardText className="mb-4"><span className="text-primary font-italic me-1">dislikes</span></MDBCardText>
+                      <MDBCardText className="mb-1" style={{ fontSize: '.77rem' }}>Bad drivers</MDBCardText>
                       <MDBProgress className="rounded">
-                        <MDBProgressBar width={80} valuemin={0} valuemax={100} />
+                        <MDBProgressBar width={11} valuemin={0} valuemax={100} />
                       </MDBProgress>
   
-                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Website Markup</MDBCardText>
+                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Grumps</MDBCardText>
                       <MDBProgress className="rounded">
-                        <MDBProgressBar width={72} valuemin={0} valuemax={100} />
+                        <MDBProgressBar width={6} valuemin={0} valuemax={100} />
                       </MDBProgress>
   
-                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>One Page</MDBCardText>
+                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Wet socks</MDBCardText>
                       <MDBProgress className="rounded">
-                        <MDBProgressBar width={89} valuemin={0} valuemax={100} />
+                        <MDBProgressBar width={12} valuemin={0} valuemax={100} />
                       </MDBProgress>
   
-                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Mobile Template</MDBCardText>
+                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>The golden state warriors</MDBCardText>
                       <MDBProgress className="rounded">
-                        <MDBProgressBar width={55} valuemin={0} valuemax={100} />
+                        <MDBProgressBar width={25} valuemin={0} valuemax={100} />
                       </MDBProgress>
   
-                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Backend API</MDBCardText>
+                      <MDBCardText className="mt-4 mb-1" style={{ fontSize: '.77rem' }}>Cabbage</MDBCardText>
                       <MDBProgress className="rounded">
-                        <MDBProgressBar width={66} valuemin={0} valuemax={100} />
+                        <MDBProgressBar width={44} valuemin={0} valuemax={100} />
                       </MDBProgress>
                     </MDBCardBody>
                   </MDBCard>
