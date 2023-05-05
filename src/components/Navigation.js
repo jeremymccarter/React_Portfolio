@@ -10,29 +10,7 @@ import Icon from '@mdi/react';
 import { mdiAccountCowboyHat } from '@mdi/js';
 import './Navigation.css';
 import { Navbar } from 'react-bootstrap';
-// import MenuIcon from '@mui/icons-material/Menu';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 
-// function Navigation(){
-//     return (
-//     <Navbar>  
-//     <div>
-//         Navigation!
-//         <Link to='/project'>
-//            <p>Projects</p> 
-//         </Link>
-//         <Link to='/aboutme'>
-//            <p>About Me</p> 
-//         </Link>
-//         <Link to='/resume'>
-//            <p>Resume</p> 
-//         </Link>
-//         <Link to='/contact'>
-//            <p>Contact</p> 
-//         </Link>
-//     </div>
-//     </Navbar>  
-// )}
 
 function Navigation(){
     return(
@@ -40,6 +18,7 @@ function Navigation(){
         <Navbar className='d-flex justify-content-between'>
     <AppBar position="static">
       <Toolbar>
+        <Link to ='/'>
         <IconButton
           size="large"
           edge="start"
@@ -49,6 +28,7 @@ function Navigation(){
         >
           <Icon path={mdiAccountCowboyHat} size={1} />
         </IconButton>
+        </Link>
         <Typography className='d-flex justify-content-evenly' variant="h6" component="div" sx={{ flexGrow: 1 }}   >
           <Link to = '/aboutme' color="common.white">
           About Me

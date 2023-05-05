@@ -5,7 +5,7 @@ import React from 'react';
 function Resume(){
     return (
     <div>
-        Resume!
+        I need to update my resume but this is where I will post and link it for download!
     </div>
 )}
 

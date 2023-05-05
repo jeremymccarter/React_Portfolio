@@ -69,7 +69,7 @@ export default function Footer() {
             floating
             className='m-1'
             style={{ backgroundColor: '#333333' }}
-            href='#!'
+            href='https://github.com/jeremymccarter'
             role='button'
           >
             <MDBIcon fab icon='github' />
@@ -78,9 +78,9 @@ export default function Footer() {
       </MDBContainer>
 
       <div className='text-center p-0' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2020 Copyright:
+        © 2023 Copyright:
         <a className='text-white' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
+           JeremyMcCarter
         </a>
       </div>
     </MDBFooter>
