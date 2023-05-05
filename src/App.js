@@ -1,4 +1,6 @@
-// import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
+// import ReactDOM  from 'react';
 import AboutMe from './components/AboutMe'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
