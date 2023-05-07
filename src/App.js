@@ -8,12 +8,12 @@ import Resume from './components/Resume'
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 import Project from './components/Project';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
     return (
         <div className="">
-            <BrowserRouter>
+            <HashRouter>
                 
                 <Navigation />
                 
@@ -27,7 +27,7 @@ function App() {
                     <Route path='/footer' element={<Footer/>}/>
                 </Routes>
                 <Footer/>
-            </BrowserRouter>
+            </HashRouter>
 
 
         </div>
