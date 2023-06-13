@@ -1,5 +1,5 @@
 import React from 'react';
-
+import avi from '../imgs/avi.jpg'
 import {
     MDBCol,
     MDBContainer,
@@ -41,7 +41,8 @@ import {
               <MDBCard className="mb-4">
                 <MDBCardBody className="text-center">
                   <MDBCardImage
-                    src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp"
+                    //src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp"
+                    src = {avi}
                     alt="avatar"
                     className="rounded-circle"
                     style={{ width: '150px' }}
@@ -60,7 +61,7 @@ import {
                   <MDBListGroup flush className="rounded-3">
                     <MDBListGroupItem className="d-flex justify-content-between align-items-center p-3">
                       <MDBIcon fas icon="globe fa-lg text-warning" />
-                      <MDBCardText>https://mdbootstrap.com</MDBCardText>
+                      <MDBCardText>https://jeremymccarter.github.io/React_Portfolio/</MDBCardText>
                     </MDBListGroupItem>
                     <MDBListGroupItem className="d-flex justify-content-between align-items-center p-3">
                       <MDBIcon fab icon="github fa-lg" style={{ color: '#333333' }} />
