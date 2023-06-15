@@ -1,0 +1,30 @@
+.resume-container {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .resume-content {
+    margin-bottom: 60px; /* Adjust as needed to avoid overlapping with the buttons */
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 80px;
+    left: 70%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    width: 100%;
+    max-width: 300px; /* Adjust as needed for the maximum width of the buttons */
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .action-buttons button {
+    flex: 1;
+    margin-right: 75px;
+    width: 100%;
+  }
+  
+  

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './Footer.css';
 import {
   MDBFooter,
   MDBContainer,
@@ -11,64 +10,26 @@ export default function Footer() {
   const [isScrolling, setIsScrolling] = useState(false);
 
   useEffect(() => {
+    let prevScrollPos = window.scrollY;
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      setIsScrolling(currentScrollPos > prevScrollPos);
+      prevScrollPos = currentScrollPos;
+    };
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
-  const handleScroll = () => {
-    if (window.pageYOffset > 0) {
-      setIsScrolling(true);
-    } else {
-      setIsScrolling(false);
-    }
-  };
-
   return (
-    <div className={`footer-margin${isScrolling ? ' scrolled' : ''}`}>
-      <MDBFooter className='bg-light text-center text-white'>
+    <>
+      <MDBFooter
+        className={`bg-light text-center text-white${isScrolling ? ' hidden' : ''}`}
+        style={{ position: 'fixed', bottom: '0', left: '0', right: '0' }}
+      >
         <MDBContainer className='p-0 pb-0'>
           <section className='mb-0'>
-            {/* <MDBBtn
-              floating
-              className='m-1'
-              style={{ backgroundColor: '#3b5998' }}
-              href='#!'
-              role='button'
-            >
-              <MDBIcon fab icon='facebook-f' />
-            </MDBBtn>
-
-            <MDBBtn
-              floating
-              className='m-1'
-              style={{ backgroundColor: '#55acee' }}
-              href='#!'
-              role='button'
-            >
-              <MDBIcon fab icon='twitter' />
-            </MDBBtn>
-
-            <MDBBtn
-              floating
-              className='m-1'
-              style={{ backgroundColor: '#dd4b39' }}
-              href='#!'
-              role='button'
-            >
-              <MDBIcon fab icon='google' />
-            </MDBBtn>
-            <MDBBtn
-              floating
-              className='m-1'
-              style={{ backgroundColor: '#ac2bac' }}
-              href='#!'
-              role='button'
-            >
-              <MDBIcon fab icon='instagram' />
-            </MDBBtn> */}
-
             <MDBBtn
               floating
               className='m-1'
@@ -95,6 +56,11 @@ export default function Footer() {
           © 2023 JeremyMcCarter
         </div>
       </MDBFooter>
-    </div>
+      <style>{`
+        .hidden {
+          display: none;
+        }
+      `}</style>
+    </>
   );
 }

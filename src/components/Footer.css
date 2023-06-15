@@ -1,3 +1,8 @@
-/* .footer-margin{
-    margin: -71px; ;
-} */
+.scrolled {
+    display: none;
+  }
+  
+  .hidden {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
